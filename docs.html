@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<!--Clear Cache-->
+		<meta http-equiv='cache-control' content='no-cache'>
+		<meta http-equiv='expires' content='0'>
+		<meta http-equiv='pragma' content='no-cache'>
+		<!--Tags-->
+		<title>Documentation.pdf</title>
+		<meta name="description" content="Nathan Pham, creator of novaHaven">
+		<meta name="keywords" content="nova, bypass, securly hate, novaHaven, haven,student, proxie, proxy"/>
+		<link href="assets/styles/novaDocs.css" rel="stylesheet" type="text/css" />
+		<!--Icon removed
+		<link rel="icon" type="image/png" href="assets/images/novaHavenFavi.png"/>
+		-->
+	</head>
+	<body>
+		<img id="menu" onclick="back()" alt="Crescent" src="assets/images/novaHavenFavi.png">
+		<div class="post">
+			<h1>NEW FEATURES</h1>
+			<p>More search options since IFRAME and OBJECT were blocked.</p>
+
+		</div>
+		<div class="post">
+			<h1>Also created by me</h1>
+			<a href="https://venezuela--adcharity.repl.co/index.html#">Venezuela Information</a><br>
+			<a href="https://chat--adcharity.repl.co">Anonymous Chat Room (glitchy)</a>
+		</div>
+		<div class="post">
+			<h1>Inspiration</h1>
+			<p>School chromebooks have a lot of restrictions. NovaHaven = no more restrictions on web. Developed by students, maintained by students, and distributed to students. All search options will hide history.</p>
+		</div>
+		<div class="post">
+			<h1>How 2 Use</h1>
+			<p>You must type in the entire URL. Certain buttons pressed will let you in on certain insights. The home button on the upper right will return you back to the home page.</p>
+		</div>
+		<div class="post">
+			<h1>Sites that work</h1>
+			<p>Unfortunately, there are not many sites that will actually work with the current search options. Only educational sites and not games (not sure how to unblock them successfully with my current proxy) will be able to be unblocked.</p>
+		</div>
+		<div class="post">
+			<h1>Search Method 1: IFrame</h1>
+			<p>This method has become degraded and no longer works effectively as of 10/22/19. Securly is able to block websites even in virtual containers like iframes. In addition, modern sites have protection against thrid parties attempting to take data.</p>
+		</div>
+		<div class="post">
+			<h1>Search Method 2: Object/Embed</h1>
+			<p>This method has become degraded and no longer works effectively as of 10/22/19. Securly is able to block websites even in virtual containers like loading object data. In addition, modern sites have protection against thrid parties attempting to take data.</p>
+		</div>
+		<div class="post">
+			<h1>Search Method 3: IFrame + Sandbox</h1>
+			<p>This method has become degraded and no longer works effectively as of 10/22/19. Securly is able to block websites even in virtual containers like loading object data. In addition, modern sites have protection against thrid parties attempting to take data. This IFrame is able to block popups.</p>
+		</div>
+		<div class="post">
+			<h1>Search Method 4: Proxy</h1>
+			<p>Fail proof and almost always will work. However, styling of a webpage is often lost. However, interactivity with sites are often lost.</p>
+		</div>
+		<div class="post">
+			<h1>Search Method 5: PDF Download </h1>
+			<p>This method takes a long time but will most likely work. It will generate a pdf download of the site you wish to use, saving all links to use for proxy methods in the future.</p>
+		</div>
+		<div class="post">
+			<h1>Docs</h1>
+			<p>Documentation of this site.</p>
+		</div>
+		<div class="post">
+			<h1>BookletMarks for Future Use</h1>
+			<p>BookletMarks are like mini pieces of javascript that can alter browser experience by bookmarking a script. Some useful bookletmarks are:</p>
+			<p><strong>Offline Text Editor</strong></p>
+			<p>javascript:(function() {var myWindow = window.open("http://offline-editor--adcharity.repl.co/optimized.html", "", "width=400,height=400");})();</p>
+			<p><strong>Drive Port II, similar to NovaHaven. Password: HiddenNumber</strong></p>
+			<p>javascript:(function() {var myWindow = window.open("https://drivegoogle--adcharity.repl.co", "", "width=400,height=400");})();</p>
+			<p><strong>Erase any tab and replace it with Google</strong></p>
+			<p>javascript:(function() { var link = document.querySelector("link[rel*='icon']") || document.createElement('link'); link.type = 'image/x-icon'; link.rel = 'shortcut icon'; link.href = 'https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_5.ico'; document.title='My Drive - Google Drive'; console.log(document.title); document.getElementsByTagName('head')[0].appendChild(link); window.location.replace("https://www.google.com"); })();</p>
+			<p><strong>NovaHavenPass</strong></p>
+			<p style="color: black;">javascript:(function() {window.localStorage.setItem('accessLevel', 'novaHaven');})();</p>
+		</div>
+	</body>
+	<script>
+	document.body.innerHTML += '<img id=\"menu\" onclick=\"back()\" alt=\"Crescent\" src=\"assets/images/novaHavenFavi.png\">';
+	function back(){
+		window.location.replace("index.html");
+	}
+	</script>
+</html>
