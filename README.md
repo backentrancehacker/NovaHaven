@@ -4,9 +4,6 @@ Crescent
 NEW FEATURES
 More search options since IFRAME and OBJECT were blocked.
 
-Also created by me
-Venezuela Information
-Anonymous Chat Room (glitchy)
 Inspiration
 School chromebooks have a lot of restrictions. NovaHaven = no more restrictions on web. Developed by students, maintained by students, and distributed to students. All search options will hide history.
 
